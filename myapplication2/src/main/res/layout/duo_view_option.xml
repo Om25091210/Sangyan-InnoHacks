@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/duo_view_option_selector_side"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/view_option_text_layout"
+        android:layout_alignTop="@+id/view_option_text_layout"
+        android:src="@drawable/side_hori_bg"
+        android:contentDescription="@string/indicator" />
+
+    <RelativeLayout
+        android:id="@+id/view_option_text_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/duo_view_option_selector_side"
+        android:padding="12dp">
+
+        <ImageView
+            android:id="@+id/duo_view_option_selector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/side_hori_bg"/>
+
+        <TextView
+            android:id="@+id/duo_view_option_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:layout_toEndOf="@+id/duo_view_option_selector"
+            android:gravity="center_vertical|start"
+            android:text="@string/dhiti_foundation"
+            android:textColor="@color/wel_bg"
+            android:textSize="@dimen/_13sdp"
+            android:fontFamily="@font/quicksand_bold"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,134 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/use_bg"
+    android:clickable="true"
+    android:id="@+id/constraint"
+    android:focusable="true">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:contentDescription="@string/image"
+        android:src="@drawable/cg_logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/no_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no_data"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/fredokaregular"
+        android:textColor="@color/use_orange"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearLayout11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/bg_back_view"
+            android:backgroundTint="@color/use_neumorph_orange"
+            android:contentDescription="@string/image"
+            android:padding="10dp"
+            android:src="@drawable/ic_back"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ImageContrastCheck" />
+
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:fontFamily="@font/quicksand_bold"
+            android:textColor="@color/use_orange"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="Writ Cases Alert"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+            app:layout_constraintEnd_toStartOf="@+id/form"
+            app:layout_constraintStart_toEndOf="@+id/imageView4"
+            app:layout_constraintTop_toTopOf="@+id/imageView4" />
+
+
+        <ImageView
+            android:id="@+id/form"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:contentDescription="@string/image"
+            android:gravity="end"
+            android:paddingStart="15dp"
+            android:paddingTop="12dp"
+            android:paddingEnd="15dp"
+            android:paddingBottom="10dp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_excel_admin" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <com.ogaclejapan.smarttablayout.SmartTabLayout
+        android:id="@+id/viewpagertab"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/use_bg"
+        app:layout_constraintBottom_toTopOf="@+id/viewpager"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout11"
+        app:stl_clickable="true"
+        app:stl_defaultTabTextColor="@color/use_light_blue"
+        app:stl_defaultTabTextHorizontalPadding="24dp"
+        app:stl_dividerColor="@color/transparent"
+        app:stl_indicatorColor="@color/use_orange"
+        app:stl_indicatorCornerRadius="5dp"
+        app:stl_indicatorInterpolation="smart"
+        app:stl_indicatorThickness="4dp"
+        app:stl_indicatorWidth="20dp"
+        app:stl_indicatorWithoutPadding="false"
+        app:stl_underlineColor="@color/transparent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@id/viewpagertab"
+        android:background="@color/use_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewpagertab"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:clickable="true"
+    android:focusable="true"
+    android:scrollbars="none"
+    android:id="@+id/lay1"
+    >
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_view"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="done.json"
+        app:lottie_loop="true" />
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="25dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="28dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="35dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_back_view"
+                    android:backgroundTint="@color/use_neumorph_orange"
+                    android:contentDescription="@string/image"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_back"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="ImageContrastCheck" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="20dp"
+                    android:fontFamily="@font/quicksand_bold"
+                    android:text="@string/notice_to_victim"
+                    android:textColor="@color/use_orange"
+                    android:textSize="25sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15sp"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="@string/district"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <AutoCompleteTextView
+                android:id="@+id/ac_district"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_edt_text"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="@string/district_name"
+                android:importantForAutofill="no"
+                android:inputType="textNoSuggestions"
+                android:padding="15dp"
+                android:textSize="16sp"
+                tools:ignore="SpeakableTextPresentCheck">
+
+                <requestFocus />
+
+            </AutoCompleteTextView>
+
+            <TextView
+                android:id="@+id/pr_roll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15sp"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="@string/police_station_1"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <AutoCompleteTextView
+                android:id="@+id/policeStation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_edt_text"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="@string/police_station_name"
+                android:importantForAutofill="no"
+                android:inputType="textNoSuggestions"
+                android:padding="15dp"
+                android:textSize="16sp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/crime_no_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15sp"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="@string/crime_number"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/crime_no_edt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_edt_text"
+                android:ems="10"
+                android:maxLength="5"
+                android:gravity="start|top"
+                android:hint="@string/crime_no_"
+                android:importantForAutofill="no"
+                android:inputType="number"
+                android:padding="15dp"
+                android:textSize="16sp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/year_crime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15sp"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="@string/crime_year"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/crime_year_edt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_edt_text"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="@string/year_of_crime"
+                android:importantForAutofill="no"
+                android:inputType="number"
+                android:maxLength="4"
+                android:padding="15dp"
+                android:textSize="16sp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/case_type_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15sp"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="@string/case_type_"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+            <LinearLayout
+                android:id="@+id/layout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/app_name">
+
+                <TextView
+                    android:id="@+id/crr"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_selector"
+                    android:fontFamily="@font/quicksand_bold"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="@string/crr"
+                    android:textColor="@color/use_blue"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/cra"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_selector"
+                    android:fontFamily="@font/quicksand_bold"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="@string/cra"
+                    android:textColor="@color/use_blue"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/mcrc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_selector"
+                    android:fontFamily="@font/quicksand_bold"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="@string/mcrc"
+                    android:textColor="@color/use_blue"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/no_case"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15sp"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="@string/case_number"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/case_no_edt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_edt_text"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="@string/enter_case_number"
+                android:importantForAutofill="no"
+                android:inputType="number"
+                android:maxLength="4"
+                android:padding="15dp"
+                android:textSize="16sp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+
+            <TextView
+                android:id="@+id/year_case"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15sp"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="@string/case_year"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/case_year_edt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_edt_text"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="@string/year_of_case"
+                android:importantForAutofill="no"
+                android:inputType="number"
+                android:maxLength="4"
+                android:padding="15dp"
+                android:textSize="16sp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15sp"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="Appellant"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/appellant_edt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_edt_text"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="@string/name_of_the_appellant"
+                android:importantForAutofill="no"
+                android:padding="15dp"
+                android:textSize="16sp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/notice_date_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15sp"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="@string/notice_date"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/notice_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_edt_text"
+                android:hint="@string/tap_to_select"
+                android:padding="15dp"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/next_date_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15sp"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="@string/next_hearing_date"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/next_hearing_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_edt_text"
+                android:hint="@string/tap_to_select"
+                android:padding="15dp"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/advocate_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15sp"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="@string/advocate_name"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/name_edt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_edt_text"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="@string/name_of_the_govt_advocate"
+                android:importantForAutofill="no"
+                android:inputType="textNoSuggestions"
+                android:padding="15dp"
+                android:textSize="16sp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/submit_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="35dp"
+                android:background="@drawable/bg_card_red"
+                android:backgroundTint="@color/use_orange"
+                android:fontFamily="@font/quicksand_bold"
+                android:gravity="center"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:text="@string/submit_amp_send_alert"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                tools:ignore="TextContrastCheck" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

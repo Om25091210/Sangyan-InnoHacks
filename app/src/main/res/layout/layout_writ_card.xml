@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg_card_red"
+    android:layout_marginTop="20dp"
+    android:layout_marginEnd="20dp"
+    android:id="@+id/writ_layout"
+    android:layout_marginHorizontal="20dp"
+    android:layout_marginStart="20dp"
+    android:padding="10dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/seen"
+        android:layout_width="@dimen/_20sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:layout_marginTop="10dp"
+        android:padding="2dp"
+        android:layout_marginStart="20dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_seen"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/use_light_blue" />
+
+    <ImageView
+        android:id="@+id/notified"
+        android:layout_width="@dimen/_22sdp"
+        android:layout_height="@dimen/_22sdp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:padding="2dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_bell"
+        android:visibility="gone"
+        app:layout_constraintStart_toEndOf="@+id/seen"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/use_light_blue" />
+
+    <ImageView
+        android:id="@+id/share"
+        android:layout_width="@dimen/_20sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="10dp"
+        android:padding="2dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_share"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/use_light_blue" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="@dimen/_22sdp"
+        android:layout_height="@dimen/_22sdp"
+        android:layout_marginEnd="15dp"
+        android:padding="2dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/image"
+        android:src="@drawable/ic_blue_tick"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/share"
+        app:layout_constraintEnd_toStartOf="@+id/share"
+        app:layout_constraintTop_toTopOf="@+id/share"
+        tools:ignore="ImageContrastCheck" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/share">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="@string/districto"
+                android:textColor="@color/use_light_blue"
+                android:textSize="@dimen/_11sdp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/district_ed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:ellipsize="end"
+                android:fontFamily="@font/quicksand_bold"
+                android:maxLines="1"
+                android:paddingStart="1dp"
+                android:paddingEnd="15dp"
+                android:textColor="@color/use_light_blue"
+                android:textSize="@dimen/_10sdp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="04-01-2021" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/parent_police"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="Date of filing - "
+                android:textColor="@color/use_light_blue"
+                android:textSize="@dimen/_11sdp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/date_of_filing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:ellipsize="end"
+                android:fontFamily="@font/quicksand_bold"
+                android:maxLines="1"
+                android:paddingStart="1dp"
+                android:paddingEnd="15dp"
+                android:textColor="@color/use_light_blue"
+                android:textSize="@dimen/_10sdp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="Chhuikhandhan" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/crime_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="@string/nature_of_the_caseo"
+                android:textColor="@color/use_light_blue"
+                android:textSize="@dimen/_11sdp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/nature"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:maxLines="1"
+                android:paddingStart="1dp"
+                android:textColor="@color/use_light_blue"
+                android:textSize="@dimen/_10sdp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="@tools:sample/us_phones" />
+
+            <TextView
+                android:id="@+id/case_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:maxLines="1"
+                android:paddingStart="1dp"
+                android:textColor="@color/use_light_blue"
+                android:textSize="@dimen/_10sdp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="@tools:sample/us_phones" />
+
+            <TextView
+                android:id="@+id/case_year"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:maxLines="1"
+                android:paddingStart="1dp"
+                android:textColor="@color/use_light_blue"
+                android:textSize="@dimen/_10sdp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="@tools:sample/us_phones" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/parent_dist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="Appellants - "
+                android:textColor="@color/use_light_blue"
+                android:textSize="@dimen/_11sdp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/appellants"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:ellipsize="end"
+                android:fontFamily="@font/quicksand_bold"
+                android:maxLines="1"
+                android:paddingStart="1dp"
+                android:paddingEnd="15dp"
+                android:textColor="@color/use_light_blue"
+                android:textSize="@dimen/_10sdp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="Rajnandgaon" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/pr_case_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="Respondents - "
+                android:textColor="@color/use_light_blue"
+                android:textSize="@dimen/_11sdp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/respondents"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:ellipsize="end"
+                android:fontFamily="@font/quicksand_bold"
+                android:maxLines="1"
+                android:paddingStart="1dp"
+                android:paddingEnd="15dp"
+                android:textColor="@color/use_light_blue"
+                android:textSize="@dimen/_10sdp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="7292/2020" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/case_yr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="Time limit for Filling of reply - "
+                android:textColor="@color/use_light_blue"
+                android:textSize="@dimen/_11sdp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/time_limit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:ellipsize="end"
+                android:fontFamily="@font/quicksand_bold"
+                android:maxLines="1"
+                android:paddingStart="1dp"
+                android:paddingEnd="15dp"
+                android:textColor="@color/use_light_blue"
+                android:textSize="@dimen/_10sdp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="7292/2020" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/notice_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="Synopsis - "
+                android:textColor="@color/use_light_blue"
+                android:textSize="@dimen/_11sdp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/summarytxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:ellipsize="end"
+                android:fontFamily="@font/quicksand_bold"
+                android:paddingStart="1dp"
+                android:paddingEnd="15dp"
+                android:textColor="@color/use_light_blue"
+                android:textSize="@dimen/_10sdp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="7292/2020" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/hearing_dt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="Date of submission of reply - "
+                android:textColor="@color/use_light_blue"
+                android:textSize="@dimen/_11sdp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/hearing_dt_ed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:ellipsize="end"
+                android:fontFamily="@font/quicksand_bold"
+                android:maxLines="1"
+                android:paddingStart="1dp"
+                android:paddingEnd="15dp"
+                android:textColor="@color/use_light_blue"
+                android:textSize="@dimen/_10sdp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="7292/2020" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/advocate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="Judgement Date - "
+                android:textColor="@color/use_light_blue"
+                android:textSize="@dimen/_11sdp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/judgement_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:ellipsize="end"
+                android:fontFamily="@font/quicksand_bold"
+                android:maxLines="1"
+                android:paddingStart="1dp"
+                android:paddingEnd="15dp"
+                android:textColor="@color/use_light_blue"
+                android:textSize="@dimen/_10sdp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="7292/2020" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="Judgement - "
+                android:textColor="@color/use_light_blue"
+                android:textSize="@dimen/_11sdp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/judgementType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:ellipsize="end"
+                android:fontFamily="@font/quicksand_bold"
+                android:maxLines="1"
+                android:paddingStart="1dp"
+                android:paddingEnd="15dp"
+                android:textColor="@color/use_light_blue"
+                android:textSize="@dimen/_10sdp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="7292/2020" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_judge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="@string/judgement_summary_"
+                android:textColor="@color/use_light_blue"
+                android:textSize="@dimen/_11sdp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/judgement_summary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:ellipsize="end"
+                android:fontFamily="@font/quicksand_bold"
+                android:maxLines="1"
+                android:paddingStart="1dp"
+                android:paddingEnd="15dp"
+                android:textColor="@color/use_light_blue"
+                android:textSize="@dimen/_10sdp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="7292/2020" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_due"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="@string/due_dateo"
+                android:textColor="@color/use_light_blue"
+                android:textSize="@dimen/_11sdp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/due_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:ellipsize="end"
+                android:fontFamily="@font/quicksand_bold"
+                android:maxLines="1"
+                android:paddingStart="1dp"
+                android:paddingEnd="15dp"
+                android:textColor="@color/use_light_blue"
+                android:textSize="@dimen/_10sdp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="7292/2020" />
+
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/bg_view"
+        android:fontFamily="@font/quicksand_medium"
+        android:gravity="center"
+        android:paddingStart="20dp"
+        android:paddingTop="3dp"
+        android:paddingEnd="20dp"
+        android:paddingBottom="3dp"
+        android:text="@string/view"
+        android:textColor="@color/use_blue"
+        android:textSize="@dimen/_9sdp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout2"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        tools:ignore="TextContrastCheck" />
+</androidx.constraintlayout.widget.ConstraintLayout>

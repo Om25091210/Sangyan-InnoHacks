@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/21.7.21/BC ALERT/cgalert/app/src/main/res/drawable/splash.xml" value="0.158" />
+        <entry key="..\:/21.7.21/BC ALERT/cgalert/app/src/main/res/layout/activity_entry_actiivity.xml" value="0.1" />
+        <entry key="..\:/21.7.21/BC ALERT/cgalert/app/src/main/res/layout/activity_home.xml" value="0.20516304347826086" />
+        <entry key="..\:/21.7.21/BC ALERT/cgalert/app/src/main/res/layout/activity_login.xml" value="0.20516304347826086" />
+        <entry key="..\:/21.7.21/BC ALERT/cgalert/app/src/main/res/layout/activity_select_district.xml" value="0.20516304347826086" />
+        <entry key="..\:/21.7.21/BC ALERT/cgalert/app/src/main/res/layout/activity_select_stations.xml" value="0.20516304347826086" />
+        <entry key="..\:/21.7.21/BC ALERT/cgalert/app/src/main/res/layout/activity_splash.xml" value="0.20516304347826086" />
+        <entry key="..\:/21.7.21/BC ALERT/cgalert/app/src/main/res/layout/activity_temp_notification.xml" value="0.20516304347826086" />
+        <entry key="..\:/21.7.21/BC ALERT/cgalert/app/src/main/res/layout/card_design.xml" value="0.20516304347826086" />
+        <entry key="..\:/21.7.21/BC ALERT/cgalert/app/src/main/res/layout/card_district_design.xml" value="0.20516304347826086" />
+        <entry key="..\:/21.7.21/BC ALERT/cgalert/app/src/main/res/layout/dialog_for_sure.xml" value="0.20516304347826086" />
+        <entry key="..\:/21.7.21/BC ALERT/cgalert/app/src/main/res/layout/fragment_entries.xml" value="0.20516304347826086" />
+        <entry key="..\:/21.7.21/BC ALERT/cgalert/app/src/main/res/layout/fragment_frag__home.xml" value="0.19202898550724637" />
+        <entry key="..\:/21.7.21/BC ALERT/cgalert/app/src/main/res/layout/fragment_frag_p__home.xml" value="0.20516304347826086" />
+        <entry key="..\:/21.7.21/BC ALERT/cgalert/app/src/main/res/layout/fragment_home.xml" value="0.20516304347826086" />
+        <entry key="..\:/21.7.21/BC ALERT/cgalert/app/src/main/res/layout/fragment_mcrc__rm__coll.xml" value="0.20516304347826086" />
+        <entry key="..\:/21.7.21/BC ALERT/cgalert/app/src/main/res/layout/fragment_mcrc__rm__return.xml" value="0.20516304347826086" />
+        <entry key="..\:/21.7.21/BC ALERT/cgalert/app/src/main/res/layout/fragment_today.xml" value="0.19202898550724637" />
+        <entry key="..\:/21.7.21/BC ALERT/cgalert/app/src/main/res/layout/fragment_urgent_data2.xml" value="0.19202898550724637" />
+        <entry key="..\:/21.7.21/BC ALERT/cgalert/app/src/main/res/layout/j_column_dialog.xml" value="0.20516304347826086" />
+        <entry key="..\:/21.7.21/BC ALERT/cgalert/app/src/main/res/layout/layout_case_diary_notification.xml" value="0.20516304347826086" />
+        <entry key="..\:/21.7.21/BC ALERT/cgalert/app/src/main/res/layout/loading_dialog.xml" value="0.19202898550724637" />
+        <entry key="..\:/21.7.21/BC ALERT/cgalert/app/src/main/res/layout/message_dialog.xml" value="0.20516304347826086" />
+        <entry key="..\:/21.7.21/BC ALERT/cgalert/app/src/main/res/layout/nav_header_layout.xml" value="0.20516304347826086" />
+        <entry key="..\:/21.7.21/BC ALERT/cgalert/app/src/main/res/layout/notification_layout.xml" value="0.19202898550724637" />
+        <entry key="..\:/Users/91626/Desktop/High Court/app/src/main/res/drawable/ic_share.xml" value="0.2015" />
+        <entry key="..\:/Users/91626/Desktop/High Court/app/src/main/res/drawable/ic_submit_type.xml" value="0.2015" />
+        <entry key="..\:/Users/91626/Desktop/High Court/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/Users/91626/Desktop/High Court/app/src/main/res/layout/card_admin.xml" value="0.25" />
+        <entry key="..\:/Users/91626/Desktop/High Court/app/src/main/res/layout/card_design.xml" value="0.536" />
+        <entry key="..\:/Users/91626/Desktop/High Court/app/src/main/res/layout/dialog_for_sure.xml" value="0.25" />
+        <entry key="..\:/Users/91626/Desktop/High Court/app/src/main/res/layout/return_card_design.xml" value="0.4" />
+        <entry key="..\:/Users/91626/Desktop/High Court/app/src/main/res/layout/similar_layout.xml" value="0.25" />
+        <entry key="..\:/Users/91626/Desktop/High Court/app/src/main/res/layout/similar_layout_2.xml" value="0.25" />
+        <entry key="..\:/Users/91626/Desktop/High Court/app/src/main/res/layout/total_card.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/select_dialog_item.xml" value="0.21422101449275363" />
+        <entry key="..\:/Users/nikhi/Desktop/Sangyan/app/src/main/res/drawable/bg_back_view.xml" value="0.194" />
+        <entry key="..\:/Users/nikhi/Desktop/Sangyan/app/src/main/res/drawable/bg_button.xml" value="0.12" />
+        <entry key="..\:/Users/nikhi/Desktop/Sangyan/app/src/main/res/drawable/bg_button2.xml" value="0.1605" />
+        <entry key="..\:/Users/nikhi/Desktop/Sangyan/app/src/main/res/drawable/bg_button_focus.xml" value="0.1" />
+        <entry key="..\:/Users/nikhi/Desktop/Sangyan/app/src/main/res/drawable/bg_edt_text.xml" value="0.194" />
+        <entry key="..\:/Users/nikhi/Desktop/Sangyan/app/src/main/res/drawable/bg_section.xml" value="0.176" />
+        <entry key="..\:/Users/nikhi/Desktop/Sangyan/app/src/main/res/drawable/border_color_focused.xml" value="0.1" />
+        <entry key="..\:/Users/nikhi/Desktop/Sangyan/app/src/main/res/drawable/border_color_normal.xml" value="0.1" />
+        <entry key="..\:/Users/nikhi/Desktop/Sangyan/app/src/main/res/drawable/ic_logo.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/Desktop/Sangyan/app/src/main/res/drawable/ic_sms.xml" value="0.1605" />
+        <entry key="..\:/Users/nikhi/Desktop/Sangyan/app/src/main/res/drawable/ic_sms1.xml" value="0.1605" />
+        <entry key="..\:/Users/nikhi/Desktop/Sangyan/app/src/main/res/layout/activity_entry.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/nikhi/Desktop/Sangyan/app/src/main/res/layout/activity_entry_actiivity.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/nikhi/Desktop/Sangyan/app/src/main/res/layout/activity_form.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/Desktop/Sangyan/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/Desktop/Sangyan/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/Desktop/Sangyan/app/src/main/res/layout/activity_phome.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/Desktop/Sangyan/app/src/main/res/layout/activity_splash.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/Desktop/Sangyan/app/src/main/res/layout/activity_temp_notification.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/Desktop/Sangyan/app/src/main/res/layout/add_respondent.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/Desktop/Sangyan/app/src/main/res/layout/card_design.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/Desktop/Sangyan/app/src/main/res/layout/card_district_design.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/Desktop/Sangyan/app/src/main/res/layout/fragment_about.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/Desktop/Sangyan/app/src/main/res/layout/fragment_about_dev.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/Desktop/Sangyan/app/src/main/res/layout/fragment_all_n_t_v.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/Desktop/Sangyan/app/src/main/res/layout/fragment_all_writs.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/nikhi/Desktop/Sangyan/app/src/main/res/layout/fragment_appellant.xml" value="0.2" />
+        <entry key="..\:/Users/nikhi/Desktop/Sangyan/app/src/main/res/layout/fragment_cases_again_form.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/nikhi/Desktop/Sangyan/app/src/main/res/layout/fragment_cases_again_police.xml" value="0.176" />
+        <entry key="..\:/Users/nikhi/Desktop/Sangyan/app/src/main/res/layout/fragment_cases_again_police2.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/Desktop/Sangyan/app/src/main/res/layout/fragment_district_data.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/Desktop/Sangyan/app/src/main/res/layout/fragment_frag__home.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/Desktop/Sangyan/app/src/main/res/layout/fragment_frag_p__home.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/Desktop/Sangyan/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/Desktop/Sangyan/app/src/main/res/layout/fragment_mcrc__rm__coll.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/Desktop/Sangyan/app/src/main/res/layout/fragment_notice_form.xml" value="0.15489130434782608" />
+        <entry key="..\:/Users/nikhi/Desktop/Sangyan/app/src/main/res/layout/fragment_notice_main.xml" value="0.264" />
+        <entry key="..\:/Users/nikhi/Desktop/Sangyan/app/src/main/res/layout/fragment_notice_v_ictim.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/Desktop/Sangyan/app/src/main/res/layout/fragment_notice_victim.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/Desktop/Sangyan/app/src/main/res/layout/fragment_noticemain_admin.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/Desktop/Sangyan/app/src/main/res/layout/fragment_p_mcrc_rm_coll.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/Desktop/Sangyan/app/src/main/res/layout/fragment_p_similar_return.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/Desktop/Sangyan/app/src/main/res/layout/fragment_pending_coll.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/Desktop/Sangyan/app/src/main/res/layout/get_task_dialog.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/Desktop/Sangyan/app/src/main/res/layout/layout_district_data.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/Desktop/Sangyan/app/src/main/res/layout/layout_installations.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/Desktop/Sangyan/app/src/main/res/layout/layout_notice_card.xml" value="0.22657952069716775" />
+        <entry key="..\:/Users/nikhi/Desktop/Sangyan/app/src/main/res/layout/layout_number_data.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/Desktop/Sangyan/app/src/main/res/layout/layout_screen.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/Desktop/Sangyan/app/src/main/res/layout/layout_writ_card.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/Desktop/Sangyan/app/src/main/res/layout/message_dialog.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/Desktop/Sangyan/app/src/main/res/layout/notification_layout.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/Desktop/Sangyan/app/src/main/res/layout/respondents_cards.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/Desktop/Sangyan/app/src/main/res/layout/total_card.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/Desktop/Sangyan/app/src/main/res/menu/activity_main_drawer.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/Desktop/Sangyan/app/src/main/res/menu/layout_menu.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/Desktop/Sangyan/app/src/main/res/menu/nav.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/Desktop/Sangyan/app/src/main/res/menu/navigation.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/Desktop/Sangyan/app/src/main/res/menu/navigation_menu.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/Desktop/high_court/app/src/main/res/drawable/add_bg_green.xml" value="0.1775" />
+        <entry key="..\:/Users/nikhi/Desktop/high_court/app/src/main/res/drawable/add_card.xml" value="0.1775" />
+        <entry key="..\:/Users/nikhi/Desktop/high_court/app/src/main/res/drawable/background_delete.xml" value="0.205" />
+        <entry key="..\:/Users/nikhi/Desktop/high_court/app/src/main/res/drawable/background_dialog.xml" value="0.205" />
+        <entry key="..\:/Users/nikhi/Desktop/high_court/app/src/main/res/drawable/bg_data_card.xml" value="0.1775" />
+        <entry key="..\:/Users/nikhi/Desktop/high_court/app/src/main/res/drawable/ic_call_btn.xml" value="0.1775" />
+        <entry key="..\:/Users/nikhi/Desktop/high_court/app/src/main/res/drawable/ic_cap.xml" value="0.1595" />
+        <entry key="..\:/Users/nikhi/Desktop/high_court/app/src/main/res/drawable/ic_ps.xml" value="0.1595" />
+        <entry key="..\:/Users/nikhi/Desktop/high_court/app/src/main/res/drawable/layout_grp_bg.xml" value="0.205" />
+        <entry key="..\:/Users/nikhi/Desktop/high_court/app/src/main/res/layout/activity_data_show.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/Desktop/high_court/app/src/main/res/layout/activity_form.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/Desktop/high_court/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/Desktop/high_court/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/Desktop/high_court/app/src/main/res/layout/activity_phome.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/Desktop/high_court/app/src/main/res/layout/activity_splash.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/Desktop/high_court/app/src/main/res/layout/card_admin.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/Desktop/high_court/app/src/main/res/layout/dialog_delete.xml" value="0.264" />
+        <entry key="..\:/Users/nikhi/Desktop/high_court/app/src/main/res/layout/dialog_for_sure.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/Desktop/high_court/app/src/main/res/layout/fragment_about.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/Desktop/high_court/app/src/main/res/layout/fragment_about_dev.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/Desktop/high_court/app/src/main/res/layout/fragment_admin_room.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/Desktop/high_court/app/src/main/res/layout/fragment_district_data.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/Desktop/high_court/app/src/main/res/layout/fragment_frag__home.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/Desktop/high_court/app/src/main/res/layout/fragment_frag_p__home.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/Desktop/high_court/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/Desktop/high_court/app/src/main/res/layout/fragment_p_pending_return.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/Desktop/high_court/app/src/main/res/layout/fragment_phone_number_data.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/Desktop/high_court/app/src/main/res/layout/layout_district_data.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/Desktop/high_court/app/src/main/res/layout/layout_installations.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/Desktop/high_court/app/src/main/res/layout/layout_number_data.xml" value="0.2" />
+        <entry key="..\:/Users/nikhi/Desktop/high_court/app/src/main/res/layout/phone_number_data.xml" value="0.176" />
+        <entry key="..\:/Users/nikhi/Desktop/high_court/app/src/main/res/layout/return_card_design.xml" value="0.19519927536231885" />
+        <entry key="..\:/Users/nikhi/OneDrive/Desktop/high_court/app/src/main/res/drawable/ic_cap.xml" value="0.1675" />
+        <entry key="..\:/Users/nikhi/OneDrive/Desktop/high_court/app/src/main/res/layout/activity_temp_notification.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/OneDrive/Desktop/high_court/app/src/main/res/layout/notification_layout.xml" value="0.25" />
+        <entry key="..\:/Users/pc/.gradle/caches/transforms-3/d51394dd9deec3b98562284f8658525b/transformed/jetified-MotionToast-1.4/res/drawable/ic_delete_.xml" value="0.1995" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/add_bg_green.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/add_card.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/background_delete.xml" value="0.194" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/bg_active.xml" value="0.195" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/bg_back_view.xml" value="0.228125" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/bg_button.xml" value="0.2055" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/bg_button2.xml" value="0.2055" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/bg_card_red.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/bg_card_white.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/bg_district.xml" value="0.2015" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/bg_edt_text.xml" value="0.191" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/bg_feed_home.xml" value="0.228125" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/bg_filter.xml" value="0.1995" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/bg_filter_tags.xml" value="0.1995" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/bg_section.xml" value="0.228125" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/bg_seen.xml" value="0.195" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/bg_selector.xml" value="0.2055" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/bg_view.xml" value="0.193" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/border_amount_bg.xml" value="0.195" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/border_color_focused.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/border_color_normal.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/bs_tags.xml" value="0.1995" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/button_profile_complete.xml" value="0.2246153846153846" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/card_admin.xml" value="0.228125" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/dialog_task_bg.xml" value="0.1" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/edittext_bg.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/google.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/i_insta.xml" value="0.1965" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/ic_add_admin.xml" value="0.1765" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/ic_adg.xml" value="0.195" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/ic_admin_cont.xml" value="0.228125" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/ic_arrow_forward_black_24dp.xml" value="0.228125" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/ic_asp.xml" value="0.195" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/ic_back.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/ic_blue_tick.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/ic_call_btn.xml" value="0.1995" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/ic_cases.xml" value="0.1095" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/ic_cg.xml" value="0.2015" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/ic_clock_time.xml" value="0.228125" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/ic_cut.xml" value="0.1995" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/ic_delete.xml" value="0.194" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/ic_dgp.xml" value="0.195" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/ic_district.xml" value="0.2015" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/ic_excel_admin.xml" value="0.1095" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/ic_fb.xml" value="0.1965" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/ic_filter.xml" value="0.228125" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/ic_filterimg.xml" value="0.1995" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/ic_green_tick.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/ic_linkedin.xml" value="0.1965" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/ic_logo.xml" value="0.228125" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/ic_menu.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/ic_next.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/ic_no_data.xml" value="0.228125" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/ic_plus_dp.xml" value="0.154" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/ic_previous.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/ic_ps.xml" value="0.195" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/ic_put_data.xml" value="0.1765" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/ic_red_clock.xml" value="0.228125" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/ic_return_type.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/ic_sdg.xml" value="0.195" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/ic_sdop.xml" value="0.195" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/ic_sdop_.xml" value="0.195" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/ic_share.xml" value="0.219" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/ic_sms.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/ic_sp.xml" value="0.195" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/ic_station_add.xml" value="0.1765" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/ic_submit_type.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/ic_tick_tick.xml" value="0.1965" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/ic_time_exceed.xml" value="0.1995" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/ic_twitter.xml" value="0.1965" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/ic_whatsapp.xml" value="0.1965" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/indicator_default.xml" value="0.228125" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/indicator_selected.xml" value="0.121875" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/item_background_nav_check.xml" value="0.2055" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/layout_grp_bg.xml" value="0.228125" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/splash.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/drawable/stroke_bg.xml" value="0.228125" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/activity_entry_actiivity.xml" value="0.25" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/activity_form.xml" value="0.22" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/activity_home.xml" value="0.22" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/activity_main.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/activity_navigation.xml" value="0.21197916666666666" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/activity_phome.xml" value="0.22" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/activity_select_district.xml" value="0.21105072463768115" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/activity_select_stations.xml" value="0.21105072463768115" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/activity_splash.xml" value="0.14" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/activity_temp_notification.xml" value="0.33" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/activity_writs_main.xml" value="0.33" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/app_bar_navigation.xml" value="0.21197916666666666" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/card_admin.xml" value="0.33" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/card_design.xml" value="0.25" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/card_district_design.xml" value="0.33" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/content_navigation.xml" value="0.21197916666666666" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/dialog_filter.xml" value="0.33" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/dialog_for_sure.xml" value="0.18432971014492755" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/fragment_about.xml" value="0.2028985507246377" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/fragment_about_dev.xml" value="0.33" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/fragment_admin_room.xml" value="0.19701086956521738" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/fragment_all_n_t_v.xml" value="0.21014492753623187" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/fragment_appellant.xml" value="0.33" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/fragment_cases_again_form.xml" value="0.18" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/fragment_cases_again_police.xml" value="0.25" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/fragment_cases_again_police2.xml" value="0.16530797101449277" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/fragment_district_data.xml" value="0.20697463768115942" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/fragment_entries.xml" value="0.5048409405255878" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/fragment_frag__home.xml" value="0.33" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/fragment_frag_p__home.xml" value="0.14" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/fragment_gallery.xml" value="0.21197916666666666" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/fragment_home.xml" value="0.21197916666666666" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/fragment_installation.xml" value="0.6648451730418944" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/fragment_mcrc__rm__coll.xml" value="0.22" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/fragment_mcrc__rm__return.xml" value="0.33" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/fragment_not_notified.xml" value="0.19701086956521738" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/fragment_notice_form.xml" value="0.21014492753623187" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/fragment_notice_main.xml" value="0.22" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/fragment_noticemain_admin.xml" value="0.5" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/fragment_p_mcrc_rm_coll.xml" value="0.21197916666666666" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/fragment_p_mcrc_rm_return.xml" value="0.21197916666666666" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/fragment_p_pending_return.xml" value="0.1852355072463768" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/fragment_p_similar_collection.xml" value="0.21197916666666666" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/fragment_p_similar_return.xml" value="0.21197916666666666" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/fragment_pending_coll.xml" value="0.33" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/fragment_pending_coll2.xml" value="0.21197916666666666" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/fragment_pending_return.xml" value="0.33" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/fragment_personalized_data.xml" value="0.1947463768115942" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/fragment_phone_number_data.xml" value="0.2" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/fragment_ppending_coll.xml" value="0.1852355072463768" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/fragment_served.xml" value="0.16530797101449277" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/fragment_showing_similar_coll.xml" value="0.33" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/fragment_showing_similar_return.xml" value="0.33" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/fragment_similar__collection.xml" value="0.2" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/fragment_similar__return.xml" value="0.20244565217391305" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/fragment_today.xml" value="0.33" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/fragment_today2.xml" value="0.21195652173913043" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/fragment_today3.xml" value="0.21014492753623187" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/fragment_total_data.xml" value="0.20018115942028986" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/fragment_urgent_data.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/fragment_urgent_data2.xml" value="0.33" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/fragment_writ_need.xml" value="0.21197916666666666" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/get_task_dialog.xml" value="0.20425724637681159" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/glass_sub.xml" value="0.2109375" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/j_column_dialog.xml" value="0.33" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/layout_case_diary_notification.xml" value="0.21014492753623187" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/layout_district_data.xml" value="0.20697463768115942" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/layout_installations.xml" value="0.21197916666666666" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/layout_menu.xml" value="0.18885869565217392" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/layout_notice_card.xml" value="0.33" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/layout_notice_notification.xml" value="0.33" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/layout_number_data.xml" value="0.20697463768115942" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/layout_respondents_select.xml" value="0.33" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/layout_screen.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/layout_served.xml" value="0.21197916666666666" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/layout_writ_card.xml" value="0.33" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/layout_writ_notification.xml" value="0.33" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/loading_dialog.xml" value="0.20516304347826086" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/message_dialog.xml" value="0.33" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/nav_header_layout.xml" value="0.21197916666666666" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/nav_header_navigation.xml" value="0.21197916666666666" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/notification_layout.xml" value="0.20878623188405798" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/number_exist_dialog.xml" value="0.21197916666666666" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/respondents_cards.xml" value="0.33" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/return_card_design.xml" value="0.33" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/similar_layout.xml" value="0.33" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/similar_layout_2.xml" value="0.2891791044776119" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/temp.xml" value="0.13" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/total_card.xml" value="0.67" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/layout/upload_dialog.xml" value="0.33" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/menu/activity_main_drawer.xml" value="0.21197916666666666" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/menu/layout_menu.xml" value="0.21197916666666666" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/menu/nav.xml" value="0.21197916666666666" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/menu/navigation.xml" value="0.21197916666666666" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/menu/navigation_menu.xml" value="0.21197916666666666" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/app/src/main/res/xml/network_security_config.xml" value="0.2109375" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/myapplication2/src/main/res/drawable/footer_button_bg.xml" value="0.228125" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/myapplication2/src/main/res/drawable/ic_fb.xml" value="1.0535714285714286" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/myapplication2/src/main/res/drawable/ic_insta.xml" value="0.228125" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/myapplication2/src/main/res/drawable/ic_linkedin.xml" value="0.228125" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/myapplication2/src/main/res/drawable/ic_twitter.xml" value="0.228125" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/myapplication2/src/main/res/drawable/ic_whatsapp.xml" value="0.228125" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/myapplication2/src/main/res/drawable/side_hori_bg.xml" value="0.228125" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/myapplication2/src/main/res/font/quicksand_bold.xml" value="0.2421875" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/myapplication2/src/main/res/layout/duo_overlay.xml" value="0.1956521739130435" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/myapplication2/src/main/res/layout/duo_view_footer.xml" value="0.1956521739130435" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/myapplication2/src/main/res/layout/duo_view_header.xml" value="0.1956521739130435" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/myapplication2/src/main/res/layout/duo_view_menu.xml" value="0.1956521739130435" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/myapplication2/src/main/res/layout/duo_view_option.xml" value="0.1956521739130435" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/cgalert/mylibrary/src/main/res/drawable/circle.xml" value="0.205" />
+        <entry key="..\:/Users/pc/AppData/Local/Android/Sdk/platforms/android-32/data/res/layout/select_dialog_item.xml" value="0.20516304347826086" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/HC Alert/app/src/main/res/layout/activity_home.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/HC Alert/app/src/main/res/layout/layout_screen.xml" value="0.14130434782608695" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

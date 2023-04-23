@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dhiti_foundation">SYNO</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="indicator">indicator</string>
+    <string name="log_out">Log out</string>
+    <string name="making_a_peacefull_place">संज्ञान</string>
+    <string name="syno">SANGYAN</string>
+</resources>

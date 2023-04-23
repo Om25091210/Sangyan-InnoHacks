@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:scrollbars="none"
+    android:background="@color/white"
+    android:focusable="true"
+    android:layout_marginTop="30dp"
+    android:clickable="true"
+    android:layout_height="match_parent"
+    tools:context=".about_dev">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_marginBottom="30dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:padding="@dimen/_10sdp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/bg_back_view"
+            android:backgroundTint="@color/use_neumorph_orange"
+            android:contentDescription="@string/image"
+            android:src="@drawable/ic_back"
+            app:layout_constraintBottom_toBottomOf="@+id/tit"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tit"
+            tools:ignore="ImageContrastCheck" />
+
+        <soup.neumorphism.NeumorphCardView
+            android:id="@+id/tit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:neumorph_lightSource="leftTop"
+            app:neumorph_shadowColorDark="@color/veryLightGrey"
+            app:neumorph_shadowColorLight="@color/off_white"
+            app:neumorph_shadowElevation="7dp"
+            app:neumorph_shapeType="flat"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/quicksand_bold"
+                android:gravity="center"
+                android:paddingStart="20dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="20dp"
+                android:paddingBottom="5dp"
+                android:text="@string/about_developers"
+                android:textColor="@color/use_orange"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </soup.neumorphism.NeumorphCardView>
+
+        <soup.neumorphism.NeumorphCardView
+            android:id="@+id/neumorphCardView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tit"
+            app:neumorph_lightSource="rightBottom"
+            app:neumorph_shadowColorDark="@color/light_one"
+            app:neumorph_shadowColorLight="@color/light_one"
+            app:neumorph_shadowElevation="7dp"
+            app:neumorph_shapeAppearance="@style/CustomShapeAppearance"
+            app:neumorph_shapeType="flat"
+            tools:ignore="MissingConstraints">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:padding="5dp"
+                android:src="@drawable/om"
+                tools:ignore="ImageContrastCheck" />
+
+        </soup.neumorphism.NeumorphCardView>
+
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/convergence"
+            android:text="@string/om_yadav"
+            android:textColor="@color/blue_grey_900"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/neumorphCardView2" />
+
+        <TextView
+            android:id="@+id/textView49"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_profile_complete"
+            android:fontFamily="@font/convergence"
+            android:gravity="center"
+            android:text="@string/android_developer"
+            android:textColor="@color/teal_700"
+            android:textSize="11sp"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView32" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView49">
+
+            <soup.neumorphism.NeumorphCardView
+                android:id="@+id/card_fb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:visibility="visible"
+                app:neumorph_lightSource="rightBottom"
+                app:neumorph_shadowColorDark="@color/light_one"
+                app:neumorph_shadowColorLight="@color/light_one"
+                app:neumorph_shadowElevation="7dp"
+                app:neumorph_shapeType="flat"
+                tools:ignore="MissingConstraints">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/facebook"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_gravity="center"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:src="@drawable/ic_fb" />
+
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:id="@+id/card_twitter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:visibility="visible"
+                app:neumorph_lightSource="rightBottom"
+                app:neumorph_shadowColorDark="@color/light_one"
+                app:neumorph_shadowColorLight="@color/light_one"
+                app:neumorph_shadowElevation="7dp"
+                app:neumorph_shapeType="flat"
+                tools:ignore="MissingConstraints">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/twitter"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_gravity="center"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:src="@drawable/ic_twitter" />
+
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:id="@+id/card_linkedin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:visibility="visible"
+                app:neumorph_lightSource="rightBottom"
+                app:neumorph_shadowColorDark="@color/light_one"
+                app:neumorph_shadowColorLight="@color/light_one"
+                app:neumorph_shadowElevation="7dp"
+                app:neumorph_shapeType="flat"
+                tools:ignore="MissingConstraints">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/linkedin"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_gravity="center"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:src="@drawable/ic_linkedin" />
+
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:id="@+id/card_whatsapp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                app:neumorph_lightSource="rightBottom"
+                app:neumorph_shadowColorDark="@color/light_one"
+                app:neumorph_shadowColorLight="@color/light_one"
+                app:neumorph_shadowElevation="7dp"
+                app:neumorph_shapeType="flat"
+                tools:ignore="MissingConstraints">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/whatsapp"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_gravity="center"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:src="@drawable/ic_whatsapp" />
+
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:id="@+id/card_insta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                app:neumorph_lightSource="rightBottom"
+                app:neumorph_shadowColorDark="@color/light_one"
+                app:neumorph_shadowColorLight="@color/light_one"
+                app:neumorph_shadowElevation="7dp"
+                app:neumorph_shapeType="flat"
+                tools:ignore="MissingConstraints">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/insta"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_gravity="center"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:src="@drawable/i_insta" />
+
+            </soup.neumorphism.NeumorphCardView>
+        </LinearLayout>
+
+        <soup.neumorphism.NeumorphCardView
+            android:id="@+id/neumorphCardView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout4"
+            app:neumorph_lightSource="rightBottom"
+            app:neumorph_shadowColorDark="@color/light_one"
+            app:neumorph_shadowColorLight="@color/light_one"
+            app:neumorph_shadowElevation="7dp"
+            app:neumorph_shapeAppearance="@style/CustomShapeAppearance"
+            app:neumorph_shapeType="flat"
+            tools:ignore="MissingConstraints">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image2"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:padding="5dp"
+                android:src="@drawable/nik"
+                tools:ignore="ImageContrastCheck" />
+
+        </soup.neumorphism.NeumorphCardView>
+
+
+        <TextView
+            android:id="@+id/textView322"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/convergence"
+            android:text="@string/nikhil_verma"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/blue_grey_900"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/neumorphCardView4" />
+
+        <TextView
+            android:id="@+id/textView46"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_profile_complete"
+            android:fontFamily="@font/convergence"
+            android:gravity="center"
+            android:text="@string/android_developer"
+            android:textColor="@color/teal_700"
+            android:layout_marginTop="5dp"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView322" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView46">
+
+            <soup.neumorphism.NeumorphCardView
+                android:id="@+id/card_fb2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:visibility="visible"
+                app:neumorph_lightSource="rightBottom"
+                app:neumorph_shadowColorDark="@color/light_one"
+                app:neumorph_shadowColorLight="@color/light_one"
+                app:neumorph_shadowElevation="7dp"
+                app:neumorph_shapeType="flat"
+                tools:ignore="MissingConstraints">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/facebook2"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_gravity="center"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:src="@drawable/ic_fb" />
+
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:id="@+id/card_twitter2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:visibility="visible"
+                app:neumorph_lightSource="rightBottom"
+                app:neumorph_shadowColorDark="@color/light_one"
+                app:neumorph_shadowColorLight="@color/light_one"
+                app:neumorph_shadowElevation="7dp"
+                app:neumorph_shapeType="flat"
+                tools:ignore="MissingConstraints">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/twitter2"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_gravity="center"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:src="@drawable/ic_twitter" />
+
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:id="@+id/card_linkedin2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:visibility="visible"
+                app:neumorph_lightSource="rightBottom"
+                app:neumorph_shadowColorDark="@color/light_one"
+                app:neumorph_shadowColorLight="@color/light_one"
+                app:neumorph_shadowElevation="7dp"
+                app:neumorph_shapeType="flat"
+                tools:ignore="MissingConstraints">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/linkedin2"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_gravity="center"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:src="@drawable/ic_linkedin" />
+
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:id="@+id/card_whatsapp2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                app:neumorph_lightSource="rightBottom"
+                app:neumorph_shadowColorDark="@color/light_one"
+                app:neumorph_shadowColorLight="@color/light_one"
+                app:neumorph_shadowElevation="7dp"
+                app:neumorph_shapeType="flat"
+                tools:ignore="MissingConstraints">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/whatsapp2"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_gravity="center"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:src="@drawable/ic_whatsapp" />
+
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:id="@+id/card_insta2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                app:neumorph_lightSource="rightBottom"
+                app:neumorph_shadowColorDark="@color/light_one"
+                app:neumorph_shadowColorLight="@color/light_one"
+                app:neumorph_shadowElevation="7dp"
+                app:neumorph_shapeType="flat"
+                tools:ignore="MissingConstraints">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/insta2"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_gravity="center"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:src="@drawable/i_insta" />
+
+            </soup.neumorphism.NeumorphCardView>
+        </LinearLayout>
+
+        <soup.neumorphism.NeumorphCardView
+            android:id="@+id/neumorphCardView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout6"
+            app:neumorph_lightSource="rightBottom"
+            app:neumorph_shadowColorDark="@color/light_one"
+            app:neumorph_shadowColorLight="@color/light_one"
+            app:neumorph_shadowElevation="7dp"
+            app:neumorph_shapeAppearance="@style/CustomShapeAppearance"
+            app:neumorph_shapeType="flat"
+            tools:ignore="MissingConstraints">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image1"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:padding="5dp"
+                android:src="@drawable/sai"
+                tools:ignore="ImageContrastCheck" />
+
+        </soup.neumorphism.NeumorphCardView>
+
+
+        <TextView
+            android:id="@+id/textView321"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/convergence"
+            android:text="@string/m_b_sai_aditya"
+            android:textColor="@color/blue_grey_900"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/neumorphCardView3" />
+
+        <TextView
+            android:id="@+id/textView48"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_profile_complete"
+            android:fontFamily="@font/convergence"
+            android:textStyle="bold"
+            android:textSize="11sp"
+            android:layout_marginTop="5dp"
+            android:text="@string/web_developer"
+            android:gravity="center"
+            android:textColor="@color/teal_700"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView321" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="40dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView48">
+
+            <soup.neumorphism.NeumorphCardView
+                android:id="@+id/card_fb1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:visibility="visible"
+                app:neumorph_lightSource="rightBottom"
+                app:neumorph_shadowColorDark="@color/light_one"
+                app:neumorph_shadowColorLight="@color/light_one"
+                app:neumorph_shadowElevation="7dp"
+                app:neumorph_shapeType="flat"
+                tools:ignore="MissingConstraints">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/facebook1"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_gravity="center"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:src="@drawable/ic_fb" />
+
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:id="@+id/card_twitter1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:visibility="gone"
+                app:neumorph_lightSource="rightBottom"
+                app:neumorph_shadowColorDark="@color/light_one"
+                app:neumorph_shadowColorLight="@color/light_one"
+                app:neumorph_shadowElevation="7dp"
+                app:neumorph_shapeType="flat"
+                tools:ignore="MissingConstraints">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/twitter1"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_gravity="center"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:src="@drawable/ic_twitter" />
+
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:id="@+id/card_linkedin1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:visibility="visible"
+                app:neumorph_lightSource="rightBottom"
+                app:neumorph_shadowColorDark="@color/light_one"
+                app:neumorph_shadowColorLight="@color/light_one"
+                app:neumorph_shadowElevation="7dp"
+                app:neumorph_shapeType="flat"
+                tools:ignore="MissingConstraints">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/linkedin1"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_gravity="center"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:src="@drawable/ic_linkedin" />
+
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:id="@+id/card_whatsapp1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                app:neumorph_lightSource="rightBottom"
+                app:neumorph_shadowColorDark="@color/light_one"
+                app:neumorph_shadowColorLight="@color/light_one"
+                app:neumorph_shadowElevation="7dp"
+                app:neumorph_shapeType="flat"
+                tools:ignore="MissingConstraints">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/whatsapp1"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_gravity="center"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:src="@drawable/ic_whatsapp" />
+
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:id="@+id/card_insta1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                app:neumorph_lightSource="rightBottom"
+                app:neumorph_shadowColorDark="@color/light_one"
+                app:neumorph_shadowColorLight="@color/light_one"
+                app:neumorph_shadowElevation="7dp"
+                app:neumorph_shapeType="flat"
+                tools:ignore="MissingConstraints">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/insta1"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_gravity="center"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:src="@drawable/i_insta" />
+
+            </soup.neumorphism.NeumorphCardView>
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>
